@@ -37,3 +37,13 @@ void MainWindow::on_pushButton_2_clicked()
     ui->label->setNum(A*B);
 }
 
+
+void MainWindow::on_pushButton_3_clicked()
+{
+    float A = ui->lineEdit->text().toFloat();
+    float B = ui->lineEdit_2->text().toFloat();
+
+
+    ui->label->setNum(A+B);
+}
+
